@@ -11,15 +11,13 @@ st.markdown("---")
 
 
 @st.cache_resource
-def get_connection():
-    return psycopg2.connect(
-        dbname="BlockbusterBase",
-        user="postgres",
-        password="sql123",
-        host="localhost",
-        port="5432"
-    )
-conn = get_connection()
+conn = psycopg2.connect(
+    host=st.secrets["postgres"]["host"],
+    port=st.secrets["postgres"]["port"],
+    database=st.secrets["postgres"]["database"],
+    user=st.secrets["postgres"]["user"],
+    password=st.secrets["postgres"]["password"]
+)
 
 def run_query(query):
     return pd.read_sql(query, conn)
