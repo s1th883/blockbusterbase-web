@@ -4,6 +4,8 @@
 
 BlockbusterBase is a Hollywood movie analytics platform designed as part of a database systems project. It provides advanced querying, visual insights, and data exploration features over a large-scale custom relational database of movies, actors, awards, and studios.
 
+🚀 Live Demo: [Click here]([https://your-streamlit-link](https://blockbusterbase-web-6kdkqhy5msfwqybgdmj7op.streamlit.app/))
+
 ---
 
 ## 🏗️ Project Highlights
