@@ -1,6 +1,5 @@
 ## 🎬 `BlockbusterBase` – README.md
 
-```markdown
 # 🎬 BlockbusterBase
 
 BlockbusterBase is a Hollywood movie analytics platform designed as part of a database systems project. It provides advanced querying, visual insights, and data exploration features over a large-scale custom relational database of movies, actors, awards, and studios.
