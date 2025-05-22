@@ -1,6 +1,3 @@
-
----
-
 ## 🎬 `BlockbusterBase` – README.md
 
 ```markdown
